@@ -35,6 +35,8 @@ React Vite
 
 Dependencies
 
+``` shell
+
 expressjs - The server for handling and routing HTTP requests
 mongoose - For modeling and mapping MongoDB data to JavaScript
 bcryptjs - Hashing Password
@@ -47,3 +49,5 @@ multer - Node.js middleware for uploading files
 react 18
 react-to-print - export to print
 react-router-dom - navigation
+
+```
