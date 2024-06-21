@@ -7,11 +7,7 @@ const logger = require("morgan");
 const port = process.env.PORT || 5000;
 
 //Route
-const categoryRoute = require("./routes/categories.js");
-const productRoute = require("./routes/products.js");
-const billRoute = require("./routes/bills.js");
-const authRoute = require("./routes/auths.js");
-const userRoute = require("./routes/users.js");
+const routes = require("./routes/index.js");
 
 dotenv.config();
 
@@ -28,11 +24,7 @@ const connect = async () => {
 app.use(logger("dev"));
 app.use(express.json());
 app.use(cors());
-app.use("/api/categories", categoryRoute);
-app.use("/api/products", productRoute);
-app.use("/api/bills", billRoute);
-app.use("/api/auths", authRoute);
-app.use("/api/users", userRoute);
+app.use("/api", routes);
 // app.get("/", (req, res) => res.send("Merhaba"));
 app.listen(port, () => {
   connect();
