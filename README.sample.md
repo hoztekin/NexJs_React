@@ -1,4 +1,4 @@
-<img src="/images/MobilSefimSol.png" alt="Logo of the project" align="right">
+<!-- <img src="/images/MobilSefimSol.png" alt="Logo of the project" align="right"> -->
 
 # React_Express Js &middot; [![Tıklayınız..](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://kvy-test.onrender.com/) [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm)
 
@@ -35,7 +35,7 @@ React Vite
 
 Dependencies
 
-``` shell
+```shell
 
 expressjs - The server for handling and routing HTTP requests
 mongoose - For modeling and mapping MongoDB data to JavaScript
